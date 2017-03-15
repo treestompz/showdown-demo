@@ -1,0 +1,87 @@
+#prev, #next {
+  cursor: pointer;
+  font-size: 20px;
+  color: #333;
+  background: white;
+  padding: 5px;
+  border-radius: 100%;
+}
+
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:80px;
+   width:100%;
+}
+
+.slide {
+  text-align: left;
+}
+
+.media-supplement {
+  text-align: center;
+}
+
+.arrow-keys {
+  font-size: 15px;
+  text-align: center;
+}
+
+.arrow-keys img {
+  margin-top: -20px;
+  width: 65px;
+}
+
+#contact {
+  font-weight: 700;
+  line-height: 1.4;
+  margin-top: 5px;
+  padding: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.modal-body {
+  background-color: #333;
+}
+
+
+/* mag */
+.mag-img img, .mag-tube img {
+  width: 200px;
+}
+
+.mag-img img {
+  border: 1px solid black;
+}
+
+
+/**
+ * Simple fade transition,
+ */
+.mfp-fade.mfp-bg {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+	opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+	opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+	opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+	opacity: 0;
+}
